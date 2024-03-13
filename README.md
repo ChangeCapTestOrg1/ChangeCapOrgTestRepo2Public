@@ -1,4 +1,4 @@
 # ChangeCapOrgTestRepo2Public
 
-commit changes: 7
+commit changes: 8
 Pull request - #178
