@@ -1,6 +1,6 @@
 # ChangeCapOrgTestRepo2Public
 
 commit changes: 3
-Pull request - #243
+Pull request - #243 (#244)
 
-not conflict value - PR 
+conflict commit #1
