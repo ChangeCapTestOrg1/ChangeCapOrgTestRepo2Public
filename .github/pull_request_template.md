@@ -1,4 +1,4 @@
-#### Details
+#### Details 2
 #### Ticket Type
 		  
 - [] Feature
