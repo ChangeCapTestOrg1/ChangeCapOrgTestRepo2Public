@@ -1,5 +1,5 @@
 #### Details
-#### Ticket Type
+#### Ticket Type 2
 		  
 - [] Feature
 - [] Bug
