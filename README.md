@@ -1,5 +1,5 @@
 # ChangeCapOrgTestRepo2Public
 
-commit changes: 4
-Pull request - #520
+commit changes: 2
+Pull request - #525
 not conflict value - PR 
