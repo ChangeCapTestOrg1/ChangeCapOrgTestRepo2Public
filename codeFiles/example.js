@@ -10,6 +10,8 @@ app.get('/user/:id', (req, res) => {
     if (err) throw err;
     res.send(result);
   });
+  //codeScanningIssue
+  &*^
 });
 
 let AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
