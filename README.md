@@ -4,5 +4,5 @@ commit changes: 2
 Pull request - #616
 not conflict value - PR 
 
-aws_access_key_id
-aws_secret_access_key
+set AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+set AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
