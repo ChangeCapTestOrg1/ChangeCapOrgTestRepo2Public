@@ -14,6 +14,9 @@ jobs:
       - name: Dummy Check
         run: echo "This is a dummy status check"
 
+      - name: Sleep for 10 seconds
+        run: sleep 10  # This will make the step wait for 10 seconds
+
       - name: Simulate Success
         run: exit 0  # This will always succeed
 
