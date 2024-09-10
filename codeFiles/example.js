@@ -11,7 +11,7 @@ app.get('/user/:id', (req, res) => {
     res.send(result);
   });
   //codeScanningIssue
-  &*^
+  445!
 });
 
 let AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
