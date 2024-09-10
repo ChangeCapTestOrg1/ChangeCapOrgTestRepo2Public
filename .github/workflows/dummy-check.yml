@@ -1,0 +1,19 @@
+name: Dummy
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  dummy-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Dummy Check
+        run: echo "This is a dummy status check"
+
+      - name: Simulate Success
+        run: exit 0  # This will always succeed
+
