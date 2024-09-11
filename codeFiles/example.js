@@ -1,15 +1,18 @@
 const express = require('express');
-const mysql = require('mysql');
 const app = express();
 
-// Vulnerable code: directly using user input in an SQL query
-app.get('/user/:id', (req, res) => {
-  let userId = req.params.id; 
-  let query = `SELECT * FROM users WHERE id = ${userId}`; // Vulnerable to SQL injection
-  connection.query(query, (err, result) => {
-    if (err) throw err;
-    res.send(result);
-  });
+app.use(express.urlencoded({ extended: true }));
+
+// Vulnerable route: directly rendering user input without escaping
+app.post('/submit', (req, res) => {
+  const userInput = req.body.userInput;
+
+  // The following line is vulnerable to XSS
+  res.send(`<html><body>Your input: ${userInput}</body></html>`);
+});
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
 });
 
 let AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
