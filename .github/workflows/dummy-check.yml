@@ -1,0 +1,22 @@
+name: Dummy
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  dummy-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Dummy Check
+        run: echo "This is a dummy status check"
+
+      - name: Sleep for 10 seconds
+        run: sleep 10  # This will make the step wait for 10 seconds
+
+      - name: Simulate Success
+        run: exit 0  # This will always succeed
+
