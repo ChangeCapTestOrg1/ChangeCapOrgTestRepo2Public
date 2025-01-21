@@ -1,6 +1,6 @@
 # ChangeCapOrgTestRepo2Public
 
-commit changes: 3
+commit changes: 4
 Pull request - #767
 not conflicted value - 
 
