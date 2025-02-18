@@ -1,4 +1,4 @@
 # ChangeCapOrgTestRepo2Public
 
-commit changes: 3
-Pull request - #788
+commit changes: 2
+Pull request - #789
