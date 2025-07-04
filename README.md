@@ -1,6 +1,6 @@
 # ChangeCapOrgTestRepo2Public
 
-commit changes: 1
-Pull request - #243 (#859)
+commit changes: 2
+Pull request - #243 (#860)
 
 conflict commit #1
