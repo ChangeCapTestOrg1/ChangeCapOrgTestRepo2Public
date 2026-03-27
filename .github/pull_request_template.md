@@ -1,15 +1,14 @@
-#### Details
-#### Ticket Type 2
-		  
+#### PR Details
+
+#### Ticket Type
 - [] Feature
 - [] Bug
 - [] Task
-		  
-#### Feature/Ticket Status
 
-- [] Partial (NOT ready for QA)
-- [] Complete (READY for QA or are there more PRs coming?))
+#### Feature/Ticket Status
+- [] Partial (Not Ready for QA)
+- [] Complete (Ready for QA)
 
 #### External Ticket Link (i.e. Jira)
+- Paste link on a new line below:
 
-Paste the URL on a new line:
