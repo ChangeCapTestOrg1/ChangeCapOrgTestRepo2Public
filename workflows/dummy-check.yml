@@ -1,6 +1,12 @@
 name: Dummy
 
-on: [push]
+on:
+  push:
+    branches:
+      - '**'  # This matches every branch in the repository
+  pull_request:
+    branches:
+      - '**'
 
 jobs:
   dummy-check:
