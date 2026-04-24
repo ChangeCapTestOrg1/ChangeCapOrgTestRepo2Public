@@ -1,0 +1,25 @@
+name: Dummy
+
+on:
+  push:
+    branches:
+      - '**'  # This matches every branch in the repository
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  dummy-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Dummy Check
+        run: echo "This is a dummy status check"
+
+      - name: Sleep for 10 seconds
+        run: sleep 10  # This will make the step wait for 10 seconds
+
+      - name: Simulate Success
+        run: exit 1  # This will always fail
